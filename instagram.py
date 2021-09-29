@@ -16,7 +16,7 @@ from Core.Browser import Browser
 
 class Instagram(TorManager,Browser):
 	def __init__(self,username,wordlist):
-		self.username = username
+		self.username = ar.jun6721
 		self.wordlist = wordlist
 		self.lock = threading.Lock()
 
@@ -31,7 +31,7 @@ class Instagram(TorManager,Browser):
 
 		#for browser
 		self.url = 'https://www.instagram.com/accounts/login/?force_classic_login'
-		self.form1 = 'username'
+		self.form1 = 'ar.jun6721'
 		self.form2 = 'password'
 
 		Browser.__init__(self)
